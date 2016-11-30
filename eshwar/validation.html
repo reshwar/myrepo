@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+</head>
+<script>
+
+</script>
+<body>
+	<form name="myform" action="target1.html">
+		<input name="name" ng-model="inputname" value="eshwar@gin.com" type="email" >
+		<input type="text" value="mynae" name="name1" ng-model="myname" required>
+		<button>submit</button>
+	</form>
+	valid email:-{{myform.name.$valid}} <br/>
+	untouched:-{{myform.name.$untouched}}<br/>
+	touched:-{{myform.name.$touched}}<br/>
+	pristine:-{{myform.name.$pristine}}<br/>
+	dirty :-{{myform.name1.$dirty}}
+	
+	valid name:-{{myform.name1.$valid}} <br/>
+	
+	<h1>forms validation</h1>
+	pristine:-{{myform.$pristine}}<br/>
+	dirty :-{{myform.$dirty}}<br/>
+	submitted :-{{myform.$submitted}}
+</body>
+</html>
