@@ -26,4 +26,4 @@ git fetch origin--> to take update from repo but not merge
 
 git pull origin--> to merge chnages of repo
 
-new line
+git push origin master -->to push changes to repo(origin) from master
