@@ -1,0 +1,29 @@
+git commit -m 'commit message' to commit all added files(staged files)
+
+touch .gitignore---> creates .gitignore file
+
+.gitignore --> if contains *.log then ignores *.log files to 
+
+git add . -->to add all files considering gitignore files
+
+git status--> to check bracnh and uncimmited changes
+
+git branch branchname -->to create branch
+
+git checkout branchname -->to chnage branch
+
+git commit -a -m 'message'->to directly commit already tracked files which were not added
+
+git remote -- > gives trpo names
+git remote -v --> gives url of cloned folder
+
+git stash--> come out of branch by saving all chnages temporarliy
+
+git stash apply --> apply chnages which were APPLIED before stash 
+
+
+git fetch origin--> to take update from repo but not merge
+
+git pull origin--> to merge chnages of repo
+
+new line
